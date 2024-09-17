@@ -1,0 +1,64 @@
+Golang is a Compiled language.
+- Go tool can run file directly without a VM
+- Executable are created at the compile time, and they are different for different OS.
+
+Q. Where can I use Golang?
+- System apps
+- Webapps
+- Cloud
+
+Q. Is it an Object Oriented language?
+- Yes and No. For OOL, we need to have classes and objects
+- Go doesn't have classes, it has structs, which is an alternative to classes.
+- We don't have overloading / overwriting (operator & method)
+
+Q. What is missing in this language?
+- Try catch is missing, no switch case
+- A laxer does a lot of work
+
+Q. What is laxer?
+- Every single language has laxer. The job of the Lexar is to understand that you are following the grammar of the language, so that the syntax is current and the variables are defined properly.
+
+Types:
+- They are case insensitive (almost)
+- Variable type should be known in advance
+- Everything is a Type (Just like everything is object in JS)
+
+Q. Different Types:
+- String
+- Bool
+- Integer -> uint8 (unsigned), uint64 (unsigned), int8, int64, uintptr
+- Floating -> float32, float64
+- Complex (numbers with imaginary values)
+
+Q. Other types:
+- Array
+- Slices
+- Maps
+- Structs
+- Pointers
+- Functions (Internally they are also treated as types so that you can pass functions as arguments)
+- Channels
+
+Q. Memory management:
+- Memory allocation and deallocation happens automatically
+- new() and make() are 2 functions that we can use to manage memory. We can pass any data structure inside them.
+- new():
+	a. Allocates memory but no init.
+	b. You will get a memory address. (We can ref them using a pointer)
+	c. Zeroed Storage (Can't put data initially)
+- make():
+	a. Allocates memory and init.
+	b. You will get a memory address. (We can ref them using a pointer)
+	c. Non-zeroed storage. (Can actually put data)
+- Garbage Collection happens automatically
+- Anything which is Out of scope or nil is garbage collected
+- We can use the runtime package for some low level information
+
+
+
+
+
+
+
+

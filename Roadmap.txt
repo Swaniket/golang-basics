@@ -1,0 +1,9 @@
+1. How its different & similar to other languages
+2. Install Golang
+3. Scope, variables, conditional, loops, functions
+4. Web Side of the language - 
+	a. Struct
+	b. Create & decode JSON
+	c. Make Web Requests,
+	d. Building API, Inject MongoDB, REST API
+5. Go Routine, Sync Packages, Mutex & Channels
