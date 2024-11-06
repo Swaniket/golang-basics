@@ -56,6 +56,9 @@ Q. Memory management:
 - We can use the runtime package for some low level information
 
 
+Note: We can handle routing using gorilla/mux package. Its industry standards
+
+
 
 
 
